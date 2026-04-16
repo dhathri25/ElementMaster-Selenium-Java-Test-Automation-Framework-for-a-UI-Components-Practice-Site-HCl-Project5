@@ -1,0 +1,11 @@
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="com.automation.tests.FormTest"/>
+            <class name="com.automation.tests.WebTableTest"/>
+            <class name="com.automation.tests.AlertTest"/>
+            <class name="com.automation.tests.FrameTest"/>
+            <class name="com.automation.tests.WidgetTest"/>
+        </classes>
+    </test>
+</suite>
