@@ -11,6 +11,7 @@ public class DriverFactory {
     public static WebDriver getDriver() {
 
         String browser = ConfigReader.get("browser");
+        
 
         System.out.println("Browser from config: " + browser);
 

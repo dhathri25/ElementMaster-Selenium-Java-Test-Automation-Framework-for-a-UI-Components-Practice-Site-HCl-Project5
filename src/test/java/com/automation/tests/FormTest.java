@@ -14,6 +14,7 @@ public class FormTest extends BaseTest {
         FormPage form = new FormPage(driver);
         form.fillForm(name, email);
         form.submitForm();
+        
     }
 
     @DataProvider(name = "formData")

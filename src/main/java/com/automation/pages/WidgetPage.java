@@ -18,6 +18,7 @@ public class WidgetPage extends BasePage {
         input.clear();
         input.sendKeys("15 Apr 2026");
         input.sendKeys(Keys.ENTER);
+        
     }
 
     public void moveSlider() {

@@ -18,6 +18,7 @@ public class FramePage extends BasePage {
     public void openFrames() {
         click(menu);
         click(frames);
+        
     }
 
     public void switchToFrame() {

@@ -15,5 +15,6 @@ public class WebTableTest extends BaseTest {
         page.addRecord();
         page.searchRecord();
         page.deleteRecord();
+        
     }
 }

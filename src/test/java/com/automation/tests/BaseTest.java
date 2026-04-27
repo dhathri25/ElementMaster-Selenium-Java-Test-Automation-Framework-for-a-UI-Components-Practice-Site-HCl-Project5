@@ -18,6 +18,7 @@ public class BaseTest {
     public void setup(ITestContext context) {
 
         System.out.println("Launching browser...");
+        
 
         driver = DriverFactory.getDriver();
         context.setAttribute("driver", driver);

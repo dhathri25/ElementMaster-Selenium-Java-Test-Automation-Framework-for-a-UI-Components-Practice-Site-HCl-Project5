@@ -15,6 +15,7 @@ public class FormPage extends BasePage {
     By name = By.id("userName");
     By email = By.id("userEmail");
     By submit = By.id("submit");
+    
 
     public void openForm() {
         click(elementsMenu);

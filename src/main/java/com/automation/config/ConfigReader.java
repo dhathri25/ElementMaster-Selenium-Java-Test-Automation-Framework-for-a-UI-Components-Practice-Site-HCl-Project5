@@ -14,6 +14,7 @@ public class ConfigReader {
 
             prop = new Properties();
             prop.load(fis);
+            
 
             System.out.println("Config loaded successfully");
 

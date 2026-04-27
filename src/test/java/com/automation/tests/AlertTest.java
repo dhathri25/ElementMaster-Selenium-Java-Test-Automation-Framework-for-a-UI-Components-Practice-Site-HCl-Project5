@@ -7,6 +7,7 @@ public class AlertTest extends BaseTest {
 
 	@Test
 	public void testAlert() {
+		
 
 	    openPage("https://demoqa.com/alerts");
 

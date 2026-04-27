@@ -18,5 +18,6 @@ public class WidgetTest extends BaseTest {
 
         openPage("https://demoqa.com/accordian");
         page.clickAccordion();
+        
     }
 }

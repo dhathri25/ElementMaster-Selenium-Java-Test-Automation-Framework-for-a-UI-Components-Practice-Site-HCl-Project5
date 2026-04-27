@@ -1,17 +1,17 @@
-# 🧩 Design Document – Selenium Automation Framework
+# Design Document – Selenium Automation Framework
 
-## 📌 Overview
+##  Overview
 This project is a Selenium-based automation framework developed using **Java, TestNG, and Maven**.  
 It follows the **Page Object Model (POM)** design pattern to ensure maintainability, scalability, and reusability.
 
 ---
 
-## 🎯 Objective
+## Objective
 The goal of this framework is to automate UI testing for various components of a web application including forms, tables, alerts, frames, and widgets.
 
 ---
 
-## 🏗️ Framework Architecture
+##  Framework Architecture
 
 The framework is structured into multiple layers:
 
@@ -55,7 +55,7 @@ The framework is structured into multiple layers:
 
 ---
 
-## 🔄 Execution Flow
+## Execution Flow
 
 1. TestNG triggers execution using `testng.xml`
 2. BaseTest initializes WebDriver
@@ -66,72 +66,17 @@ The framework is structured into multiple layers:
 
 ---
 
-## 🧪 Modules Covered
 
-### ✔ Forms
-- Input handling
-- Form submission
-- Data-driven testing using DataProvider
 
----
-
-### ✔ Web Tables
-- Add record
-- Search record
-- Delete record
-
----
-
-### ✔ Alerts
-- Simple alert handling
-- Confirmation alert handling
-- Prompt alert handling
-
----
-
-### ✔ Frames
-- Switch to iframe
-- Perform actions
-- Switch back to main content
-
----
-
-### ✔ Widgets
-- Date Picker interaction
-- Slider manipulation
-- Accordion interaction
-
----
-
-## ⚙️ Design Principles
-
-- Separation of concerns (Test vs UI logic)
-- Reusability of code
-- Maintainability of framework
-- Scalability for future enhancements
-
----
-
-## 📊 Reporting Mechanism
-
-- Implemented using Extent Reports
-- Generates HTML report after execution
-- Includes:
-  - Test results
-  - Logs
-  - Failure details
-
----
-
-## 📸 Screenshot Mechanism
+## Screenshot Mechanism
 
 - Implemented using TestNG Listener
 - Captures screenshot automatically on test failure
 - Stored in `/screenshots` directory
 
----
 
-## 🧠 Advantages of This Framework
+
+## Advantages of This Framework
 
 - Easy to extend with new test cases
 - Reduced code duplication
@@ -139,18 +84,20 @@ The framework is structured into multiple layers:
 - Supports data-driven testing
 - Handles dynamic web elements effectively
 
----
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Parallel test execution
 - Cross-browser support
 - Integration with CI/CD tools (Jenkins)
 - Cloud execution (Selenium Grid)
 
----
 
-## 🏁 Conclusion
+
+## Conclusion
 
 This framework provides a structured and efficient approach for UI automation testing.  
 It ensures high reliability, maintainability, and scalability, making it suitable for real-world applications.
+
+Developed By Dhathri Putty For HCL Hackathon
+

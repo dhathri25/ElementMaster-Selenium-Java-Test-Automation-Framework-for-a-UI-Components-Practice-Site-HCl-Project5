@@ -17,6 +17,7 @@ public class WebTablePage extends BasePage {
     By salary = By.id("salary");
     By department = By.id("department");
     By submitBtn = By.id("submit");
+    
 
     By searchBox = By.id("searchBox");
     By deleteBtn = By.xpath("//span[@title='Delete']");

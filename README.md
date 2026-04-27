@@ -1,59 +1,59 @@
-# 🚀 Selenium Automation Framework (ElementMaster)
+# Selenium Automation Testing Framework (ElementMaster)
 
-## 📌 Overview
+##  Overview
 This project is a Selenium-based test automation framework developed using **Java, TestNG, and Maven**, following the **Page Object Model (POM)** design pattern.
 
 The framework automates UI components from the DemoQA practice site and covers modules like forms, web tables, alerts, frames, and widgets.
 
----
 
-## 🎯 Objectives
+
+## Objectives
 - Automate UI interactions using Selenium WebDriver
 - Implement Page Object Model for maintainability
 - Handle dynamic elements (alerts, frames, widgets)
 - Use DataProvider for data-driven testing
 - Generate reports and capture screenshots on failure
 
----
 
-## 🧩 Features Implemented
 
-### 🔹 Forms Module
+##  Features Implemented
+
+###  Forms Module
 - Enter text inputs (name, email)
 - Submit form
 - Data-driven testing using TestNG DataProvider
 
 ---
 
-### 🔹 Web Tables Module
+### Web Tables Module
 - Add new record
 - Search record
 - Delete record
 
 ---
 
-### 🔹 Alerts Module
+###  Alerts Module
 - Handle simple alert (accept)
 - Handle confirmation alert (dismiss)
 - Handle prompt alert (input + accept)
 
 ---
 
-### 🔹 Frames Module
+###  Frames Module
 - Switch to iframe
 - Perform actions inside frame
 - Switch back to main content
 
 ---
 
-### 🔹 Widgets Module
+###  Widgets Module
 - Date Picker interaction
 - Slider movement
 - Accordion interaction
 
 ---
 
-## 🏗️ Framework Architecture
+## Framework Architecture
 
 This project follows the **Page Object Model (POM)**:
 
@@ -64,7 +64,7 @@ This project follows the **Page Object Model (POM)**:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 elementmaster/
@@ -89,7 +89,7 @@ elementmaster/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Java
 - Selenium WebDriver
@@ -99,7 +99,7 @@ elementmaster/
 
 ---
 
-## 🔄 Test Execution Flow
+##  Test Execution Flow
 
 1. TestNG runs test cases
 2. BaseTest initializes WebDriver
@@ -108,9 +108,8 @@ elementmaster/
 5. Listener captures failures
 6. Report is generated
 
----
 
-## 📊 Reporting
+## Reporting
 
 - HTML report generated using Extent Reports
 - Shows:
@@ -120,15 +119,15 @@ elementmaster/
 
 ---
 
-## 📸 Screenshot on Failure
+## Screenshot on Failure
 
 - Implemented using TestNG Listener
 - Captures screenshot automatically
 - Stored in `/screenshots` folder
 
----
 
-## ▶️ How to Run
+
+##  How to Run
 
 1. Import project into Eclipse as Maven project
 2. Right click on `testng.xml`
@@ -136,7 +135,7 @@ elementmaster/
 
 ---
 
-## ✅ Execution Result
+##  Execution Result
 
 - Total Tests: 6  
 - Passed: 6  
@@ -144,9 +143,7 @@ elementmaster/
 
 All test cases executed successfully.
 
----
-
-## 🧠 Key Highlights
+##  Key Highlights
 
 - Clean POM structure
 - Reusable code
@@ -154,9 +151,8 @@ All test cases executed successfully.
 - Data-driven testing
 - Reporting + screenshot integration
 
----
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Parallel execution
 - Cross-browser testing
@@ -165,6 +161,6 @@ All test cases executed successfully.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
-Developed by Ashila Kosaraju as part of Selenium Automation Hackathon.
+Developed by Dhathri Putty as part of Selenium Automation Hackathon.

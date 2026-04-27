@@ -12,5 +12,6 @@ public class FrameTest extends BaseTest {
 
         FramePage page = new FramePage(driver);
         page.switchToFrame();
+        
     }
 }

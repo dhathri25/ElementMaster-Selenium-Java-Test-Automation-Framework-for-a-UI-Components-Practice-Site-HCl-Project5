@@ -12,6 +12,7 @@ public class AlertPage extends BasePage {
     By simple = By.id("alertButton");
     By confirm = By.id("confirmButton");
     By prompt = By.id("promtButton");
+    
 
     public void handleSimpleAlert() {
         driver.findElement(simple).click();
